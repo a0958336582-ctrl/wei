@@ -1,0 +1,109 @@
+@import "tailwindcss";
+
+:root {
+  --color-obsidian: #000000;
+  --color-obsidian-sub: #0B0B0B;
+  --color-pure-white: #FFFFFF;
+  --color-trident-navy: #00205B;
+  --color-trident-deep: #0A2342;
+  --color-platinum: #E5E5E5;
+  --color-dark-gray: #161616;
+  --color-dark-gray-2: #222222;
+  --color-accent-red: #E31B23;
+  --color-accent-gold: #FFC72C;
+}
+
+body {
+  font-family: "Montserrat", "Noto Sans TC", "Noto Sans KR", -apple-system, BlinkMacSystemFont, sans-serif;
+  background-color: #000000;
+  color: #FFFFFF;
+  overflow-x: hidden;
+}
+
+/* Maserati Button Styles */
+.btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 32px;
+  background-color: #FFFFFF;
+  color: #000000;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  border: 1px solid #FFFFFF;
+  border-radius: 0px;
+  transition: all 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.btn-primary:hover {
+  background-color: #00205B;
+  border-color: #00205B;
+  color: #FFFFFF;
+}
+
+.btn-outline {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 13px 31px;
+  background-color: transparent;
+  color: #FFFFFF;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  font-size: 0.85rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  border-radius: 0px;
+  transition: all 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.btn-outline:hover {
+  background-color: #FFFFFF;
+  border-color: #FFFFFF;
+  color: #000000;
+}
+
+.btn-navy {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 32px;
+  background-color: #00205B;
+  color: #FFFFFF;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  border: 1px solid #00205B;
+  border-radius: 0px;
+  transition: all 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.btn-navy:hover {
+  background-color: #0A2342;
+  border-color: #0A2342;
+  box-shadow: 0 0 20px rgba(0, 32, 91, 0.6);
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0B0B0B;
+}
+::-webkit-scrollbar-thumb {
+  background: #222222;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #00205B;
+}

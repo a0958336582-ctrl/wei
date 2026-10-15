@@ -1,0 +1,6 @@
+{
+  "name": "SHEN YING GRAND HOTEL KAOHSIUNG | 高雄小港神鷹國際大飯店",
+  "description": "高雄小港頂級奢華飯店，由神鷹哥親自領航。入住尊享全高雄演唱會情報與專車接駁，提供會員專屬特惠與線上即時預訂。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

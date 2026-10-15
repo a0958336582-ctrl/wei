@@ -1,0 +1,265 @@
+import { Room } from '../types';
+
+export const hotelRooms: Room[] = [
+  {
+    id: 'room-obsidian-king',
+    slug: 'obsidian-king-suite',
+    name: {
+      'zh-TW': '神鷹曜黑尊爵套房',
+      'en-US': 'Obsidian Executive King Suite',
+      'ko-KR': '옵시디언 이그제큐티브 킹 스위트',
+    },
+    subTitle: {
+      'zh-TW': '義式黑金極簡・超跑碳纖維工藝美學',
+      'en-US': 'Italian Carbon & Obsidian Dark Luxury Aesthetics',
+      'ko-KR': '이탈리안 카본 & 옵시디언 다크 럭셔리 감성',
+    },
+    description: {
+      'zh-TW': '配備頂級義大利原裝真皮沙發與極黑沉浸式靜謐隔音艙。全景落地窗眺望小港機場飛機起降與高雄港灣，享有專屬演唱會戰情平板與 Bose 環繞音響。',
+      'en-US': 'Equipped with bespoke Italian leather furniture, soundproof acoustic architecture, panoramic runway and harbor views, Bose surround sound, and concert VIP concierge tablet.',
+      'ko-KR': '이탈리아 최고급 천연 가죽 가구, 초정밀 방음 설계, 샤오강 공항 활주로 및 가오슝 항구 파노라마 뷰, 보스 서라운드 사운드 및 콘서트 전용 태블릿 완비.',
+    },
+    sizeM2: 58,
+    capacity: 2,
+    bedType: {
+      'zh-TW': '特大雙人床 (King Size 200x200cm)',
+      'en-US': 'Custom King Size (200x200cm)',
+      'ko-KR': '커스텀 킹 사이즈 (200x200cm)',
+    },
+    view: {
+      'zh-TW': '小港國際機場跑道星芒景觀 / 高雄港灣遠眺',
+      'en-US': 'Airport Runway Starlight & Harbor Panoramic View',
+      'ko-KR': '공항 활주로 라이트 & 가오슝 하버 파노라마 뷰',
+    },
+    basePrice: 6800,
+    memberDiscountRate: 0.15,
+    images: [
+      '/src/assets/images/suite_interior_1790842680581.jpg',
+      '/src/assets/images/hotel_facade_1790842670081.jpg',
+    ],
+    specs: [
+      { label: { 'zh-TW': '房間坪數', 'en-US': 'Floor Area', 'ko-KR': '전용 면적' }, value: '58 m² / 18 坪' },
+      { label: { 'zh-TW': '隔音等級', 'en-US': 'Acoustic Rating', 'ko-KR': '방음 등급' }, value: 'STC 55 錄音室級超靜音' },
+      { label: { 'zh-TW': '衛浴設備', 'en-US': 'Bathroom Specs', 'ko-KR': '욕실 스펙' }, value: '獨立黑石浴缸、Dyson 吹風機' },
+      { label: { 'zh-TW': '影音視聽', 'en-US': 'Audio & Video', 'ko-KR': '시청각 시스템' }, value: '75吋 OLED 4K、Bose 環繞劇院' },
+    ],
+    amenities: {
+      'zh-TW': [
+        '演唱會專屬往返接駁車免費預約席',
+        '神鷹黑標膠囊咖啡機與高山烏龍名茶',
+        '神鷹深夜私廚宵夜免費配送一次',
+        '全套 Acqua di Parma 頂級義大利洗沐備品',
+        '免費高速 Wi-Fi 7 與全自動溫控系統',
+      ],
+      'en-US': [
+        'Guaranteed free concert shuttle express seat',
+        'Shen Ying custom espresso capsules & Alpine tea',
+        'Complimentary midnight chef supper delivery',
+        'Full set of Acqua di Parma luxury bath amenities',
+        'Ultra-fast Wi-Fi 7 & intelligent climate control',
+      ],
+      'ko-KR': [
+        '콘서트 무료 직통 셔틀 지정 좌석 보장',
+        '션잉 커스텀 에스프레소 & 프리미엄 고산 우롱차',
+        '호텔 총괄 셰프 야식 룸서비스 1회 무료',
+        '아쿠아 디 파르마 최고급 이탈리안 어메니티',
+        '초고속 Wi-Fi 7 및 전자동 스마트 룸 컨트롤',
+      ],
+    },
+  },
+  {
+    id: 'room-trident-penthouse',
+    slug: 'trident-presidential-penthouse',
+    name: {
+      'zh-TW': '三叉戟海港天際總統套房',
+      'en-US': 'Trident Harbor Sky Presidential Suite',
+      'ko-KR': '트라이던트 하버 스카이 프레지덴셜 스위트',
+    },
+    subTitle: {
+      'zh-TW': '神鷹哥私人私藏規格・頂層 270 度海天環景',
+      'en-US': 'Chairman Shen Ying Private Reserve ・ 270° Panoramic Skyline',
+      'ko-KR': '션잉 회장 직할 스페셜 스위트 ・ 270도 파노라마 스카이라인',
+    },
+    description: {
+      'zh-TW': '位於 32 樓雲端頂層，坐擁小港空港起降與高雄全海港巨幕日落。專屬獨立會客廳、私人無邊際溫水恆溫水療池、私人調酒中島吧台，以及神鷹哥私人酒窖典藏紅酒。',
+      'en-US': 'Perched on the 32nd pinnacle floor with 270-degree sunset ocean and runway views. Includes private heated hydrotherapy pool, cocktail island bar, and Chairman vintage cellar access.',
+      'ko-KR': '호텔 최고층 32층 위치, 공항 활주로와 가오슝 바다를 한눈에 담는 270도 파노라마 뷰. 프라이빗 온수 스파풀, 아일랜드 칵테일 바, 션잉 회장 개인 와인 셀러 특전.',
+    },
+    sizeM2: 136,
+    capacity: 4,
+    bedType: {
+      'zh-TW': '雙特大雙人床 (Two Grand King Beds)',
+      'en-US': 'Two Grand King Beds (200x210cm)',
+      'ko-KR': '트윈 그랜드 킹 베드 (200x210cm)',
+    },
+    view: {
+      'zh-TW': '270度高雄港灣全景 × 機場跑道夜景',
+      'en-US': '270° Ocean Sunset & Airport Runway Horizon',
+      'ko-KR': '270도 오션 선셋 & 공항 활주로 호라이즌',
+    },
+    basePrice: 18800,
+    memberDiscountRate: 0.25,
+    images: [
+      '/src/assets/images/suite_interior_1790842680581.jpg',
+      '/src/assets/images/hotel_facade_1790842670081.jpg',
+    ],
+    specs: [
+      { label: { 'zh-TW': '房間坪數', 'en-US': 'Floor Area', 'ko-KR': '전용 면적' }, value: '136 m² / 42 坪' },
+      { label: { 'zh-TW': '層峰樓層', 'en-US': 'Floor', 'ko-KR': '층수' }, value: '32F 最高層天際雲端' },
+      { label: { 'zh-TW': '私人水療', 'en-US': 'Private Spa', 'ko-KR': '프라이빗 스파' }, value: '露台恆溫按摩水療池' },
+      { label: { 'zh-TW': '迎賓禮遇', 'en-US': 'VIP Privilege', 'ko-KR': 'VIP 특전' }, value: '神鷹瑪莎拉蒂車隊專車接送' },
+    ],
+    amenities: {
+      'zh-TW': [
+        '神鷹專屬 Maserati 超跑車隊小港機場 / 高鐵免費接送',
+        '世運主場館 / 巨蛋演唱會專屬 VIP 直達禮遇',
+        '迎賓頂級年份香檳與神鷹私廚法式海鮮盛宴',
+        '24小時私人專屬金鑰匙管家服務',
+        '延遲退房至 16:00 尊榮特權',
+      ],
+      'en-US': [
+        'Maserati private fleet transfers from Airport or HSR',
+        'Concert VIP expedited lane & direct backstage drop-off',
+        'Vintage welcome champagne & French seafood platter',
+        '24-Hour dedicated Les Clefs d\'Or Butler service',
+        'Complimentary guaranteed late check-out till 16:00',
+      ],
+      'ko-KR': [
+        '마세라티 슈퍼카 함대 공항/고속철 무료 프라이빗 픽업',
+        '콘서트 공연장 VIP 패스트트랙 및 전용 이동 케어',
+        '웰컴 빈티지 샴페인 & 프렌치 해산물 플래터 제공',
+        '24시간 레 클레도르 전문 버틀러 1:1 서비스',
+        '오후 16:00 무료 레이트 체크아웃 보장',
+      ],
+    },
+  },
+  {
+    id: 'room-granturismo-deluxe',
+    slug: 'granturismo-runway-deluxe',
+    name: {
+      'zh-TW': '極速空港景觀客房',
+      'en-US': 'GranTurismo Runway Deluxe Room',
+      'ko-KR': '그란투리스모 활주로 디럭스 룸',
+    },
+    subTitle: {
+      'zh-TW': '動感流線・航迷與演唱會狂熱者首選',
+      'en-US': 'Aerodynamic Elegance ・ Aviation & Concert Enthusiasts',
+      'ko-KR': '에어로다이내믹 디자인 ・ 항공 매니아 & 콘서트 관람객 최적',
+    },
+    description: {
+      'zh-TW': '直面小港機場主跑道，可清晰飽覽國內外航班優雅起降。配置隔音三層強化氣密玻璃，靜享極速震撼，演唱會房客高 CP 值首選。',
+      'en-US': 'Direct view of the Kaohsiung International Airport main runway. Triple-glazed acoustic glass isolates noise completely while keeping the stunning view.',
+      'ko-KR': '샤오강 국제공항 메인 활주로 정면 뷰. 3중 방음 복층 유리로 소음은 완벽 차단하고 드라마틱한 비행기 이착륙을 감상하는 콘서트 여행객 최고 인기 객실.',
+    },
+    sizeM2: 42,
+    capacity: 2,
+    bedType: {
+      'zh-TW': '一大床或兩小床 (King or Twin Beds)',
+      'en-US': 'King Bed or Two Twin Beds',
+      'ko-KR': '킹 베드 1개 또는 트윈 베드 2개',
+    },
+    view: {
+      'zh-TW': '小港機場國際航線起降跑道正面全景',
+      'en-US': 'Direct Airport Runway & Aircraft Take-off View',
+      'ko-KR': '공항 메인 활주로 정면 뷰',
+    },
+    basePrice: 4800,
+    memberDiscountRate: 0.15,
+    images: [
+      '/src/assets/images/suite_interior_1790842680581.jpg',
+      '/src/assets/images/hotel_facade_1790842670081.jpg',
+    ],
+    specs: [
+      { label: { 'zh-TW': '房間坪數', 'en-US': 'Floor Area', 'ko-KR': '전용 면적' }, value: '42 m² / 13 坪' },
+      { label: { 'zh-TW': '起降景觀', 'en-US': 'Aviation View', 'ko-KR': '항공 조망' }, value: '跑道視角 180 度無遮蔽' },
+      { label: { 'zh-TW': '床墊規格', 'en-US': 'Bedding', 'ko-KR': '침대 스펙' }, value: '席夢思黑標獨立筒名床' },
+      { label: { 'zh-TW': '隔音科技', 'en-US': 'Soundproof', 'ko-KR': '방음 기술' }, value: '德國三層防噪氣密窗' },
+    ],
+    amenities: {
+      'zh-TW': [
+        '演唱會當日免費專車接送（每房保證 2 席）',
+        '免費迎賓軟性飲料與高雄在地特產點心',
+        '神鷹專屬高解析度望遠鏡一組（航空攝影專用）',
+        '席夢思五星名床帶來深度舒適睡眠',
+      ],
+      'en-US': [
+        'Complimentary concert roundtrip shuttle (2 seats guaranteed)',
+        'Free minibar soft drinks & Kaohsiung specialty snacks',
+        'Complimentary high-res spotting telescope for aviation fans',
+        'Simmons Black Label mattress for deep recovery sleep',
+      ],
+      'ko-KR': [
+        '콘서트 당일 무료 셔틀버스 왕복 (객실당 2석 보장)',
+        '무료 미니바 음료 & 가오슝 특산 디저트 바구니',
+        '항공기 감상용 프리미엄 고배율 망원경 대여',
+        '시몬스 뷰티레스트 블랙 라벨 최고급 침대',
+      ],
+    },
+  },
+  {
+    id: 'room-grancabrio-balcony',
+    slug: 'grancabrio-balcony-suite',
+    name: {
+      'zh-TW': '星芒海風露台套房',
+      'en-US': 'GranCabrio Ocean Breeze Balcony Suite',
+      'ko-KR': '그란카브리오 오션 브리즈 발코니 스위트',
+    },
+    subTitle: {
+      'zh-TW': '敞篷風情・私人星空微醺觀景露台',
+      'en-US': 'Convertible Spirit ・ Private Starlight Terrace',
+      'ko-KR': '컨버터블 감성 ・ 프라이빗 루프 테라스',
+    },
+    description: {
+      'zh-TW': '宛如開著敞篷超跑沐浴在高雄溫暖海風中，擁有 8 坪戶外觀景私人露台與沙發躺椅。演唱會結束後回到露台小酌，享受浪漫星空與港都夜色。',
+      'en-US': 'Inspired by open-top grand touring, featuring a 26 m² private open-air terrace with plush daybeds, ideal for post-concert stargazing and cocktails.',
+      'ko-KR': '오픈카의 자유로운 감성을 담은 26㎡ 규모의 프라이빗 야외 테라스. 콘서트 후 밤하늘의 별과 가오슝의 야경을 보며 프라이빗 칵테일을 즐기기에 완벽합니다.',
+    },
+    sizeM2: 72,
+    capacity: 2,
+    bedType: {
+      'zh-TW': '特大雙人床 (King Size 200x200cm)',
+      'en-US': 'King Size (200x200cm)',
+      'ko-KR': '킹 사이즈 (200x200cm)',
+    },
+    view: {
+      'zh-TW': '私人海風露台景觀 × 高雄夜空星光',
+      'en-US': 'Private Terrace Harbor Panorama & City Lights',
+      'ko-KR': '프라이빗 테라스 하버 파노라마 & 시티 라이트',
+    },
+    basePrice: 9200,
+    memberDiscountRate: 0.20,
+    images: [
+      '/src/assets/images/suite_interior_1790842680581.jpg',
+      '/src/assets/images/hotel_facade_1790842670081.jpg',
+    ],
+    specs: [
+      { label: { 'zh-TW': '房間坪數', 'en-US': 'Floor Area', 'ko-KR': '전용 면적' }, value: '72 m² (室內 16 坪 + 露台 8 坪)' },
+      { label: { 'zh-TW': '戶外露台', 'en-US': 'Terrace', 'ko-KR': '야외 테라스' }, value: '專屬私人木棧觀景平台與躺椅' },
+      { label: { 'zh-TW': '星空調酒', 'en-US': 'Cocktails', 'ko-KR': '스카이 칵테일' }, value: '客房內附專屬調酒器具與精釀琴酒' },
+      { label: { 'zh-TW': '演唱會專車', 'en-US': 'Shuttle', 'ko-KR': '콘서트 셔틀' }, value: '優先專用車道極速往返' },
+    ],
+    amenities: {
+      'zh-TW': [
+        '演唱會快速專用接駁車免排隊尊榮席',
+        '露台專屬微醺夜調酒組（含進口通寧水與手作果乾）',
+        '神鷹黑金浴袍與頂級香氛水療洗護套組',
+        '房內專屬手沖精品莊園咖啡豆與手沖壺',
+        '延遲退房至 14:00 慵懶睡到自然醒',
+      ],
+      'en-US': [
+        'Priority concert express shuttle with dedicated lanes',
+        'Terrace twilight gin & tonic craft mixology set',
+        'Shen Ying custom black-gold bathrobes & spa amenities',
+        'Single-origin pour-over craft coffee station',
+        'Late check-out till 14:00 for effortless relaxation',
+      ],
+      'ko-KR': [
+        '콘서트 익스프레스 셔틀 우선 탑승 VIP 좌석',
+        '야외 테라스 전용 트와일라잇 진토닉 크래프트 세트',
+        '션잉 블랙 골드 프리미엄 가운 & 럭셔리 스파 어메니티',
+        '객실 내 싱글 오리진 핸드드립 스페셜티 커피 스테이션',
+        '오후 14:00까지 무료 여유로운 레이트 체크아웃',
+      ],
+    },
+  },
+];
